@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_action_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tjcav82gmail.guessthatmovie.ActionLevel"
+    android:background="@drawable/backg">
+
+    <ImageView
+        android:layout_width="226dp"
+        android:layout_height="255dp"
+        app:srcCompat="@drawable/avengers"
+        tools:layout_editor_absoluteY="41dp"
+        tools:layout_editor_absoluteX="63dp"
+        android:id="@+id/imageView" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="342dp"
+        tools:layout_editor_absoluteX="39dp" />
+
+</android.support.constraint.ConstraintLayout>
